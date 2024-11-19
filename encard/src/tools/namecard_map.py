@@ -8,7 +8,7 @@ with open(file_path, "r") as file:
 
 async def update_namecard(character_id):
    async with aiohttp.ClientSession() as session:
-        async with session.get(f"https://api.ambr.top/v2/ru/avatar/{character_id}") as response:
+        async with session.get(f"https://gi.yatta.moe/v2/ru/avatar/{character_id}") as response:
             return await response.json()
          
 class Get:
@@ -23,16 +23,16 @@ class Get:
             if data["data"]["other"] is None:
                mapping[self.charter_id] = {
                   "id": 210192,
-                  "icon": f"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_OST4_P.png",
-                  "image": f"https://api.ambr.top/assets/UI/namecard/UI_NameCardPic_OST4_P.png"
+                  "icon": f"https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_OST4_P.png",
+                  "image": f"https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_OST4_P.png"
                }
             else:
                name_card_icon = data["data"]["other"]["nameCard"]["icon"]
                name_card_icon_image = data["data"]["other"]["nameCard"]["icon"].replace("NameCardIcon","NameCardPic")
                mapping[self.charter_id] = {
                   "id": data["data"]["other"]["nameCard"]["id"],
-                  "icon": f"https://api.ambr.top/assets/UI/namecard/{name_card_icon}.png",
-                  "image": f"https://api.ambr.top/assets/UI/namecard/{name_card_icon_image}_P.png"
+                  "icon": f"https://gi.yatta.moe/assets/UI/namecard/{name_card_icon}.png",
+                  "image": f"https://gi.yatta.moe/assets/UI/namecard/{name_card_icon_image}_P.png"
                }
                
             with open(file_path, "w") as file:
