@@ -1,7 +1,10 @@
 import aiohttp
 import json
+import os
 
-file_path = "encard/src/assets/data/namecard.json"
+dir = os.path.dirname(__file__)
+dir = dir.split("/src/tools")[0]
+file_path = f"{dir}/src/assets/data/namecard.json"
 
 with open(file_path, "r") as file:
    mapping = json.load(file)
