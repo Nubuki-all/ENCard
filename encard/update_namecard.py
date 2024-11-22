@@ -4,7 +4,7 @@ import json
 import os
 
 async def update():
-    async with ambr.AmbrAPI() as client:
+    async with ambr.AmbrAPI(cache_ttl=30) as client:
         char = await client.fetch_characters()
         nc = await client.fetch_namecards()
     
