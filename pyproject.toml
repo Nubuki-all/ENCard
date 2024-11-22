@@ -24,6 +24,8 @@ homepage = "https://github.com/Nubuki-all/ENCard"
 
 python = "^3.10"
 
+ambr = "*"
+
 enkacard = "*"
 
 
