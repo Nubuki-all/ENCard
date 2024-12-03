@@ -6,8 +6,10 @@ dir = os.path.dirname(__file__)
 dir = dir.split("/src/tools")[0]
 file_path = f"{dir}/src/assets/data/namecard.json"
 
-with open(file_path, "r") as file:
-   mapping = json.load(file)
+def get_mapping():
+   with open(file_path, "r") as file:
+        mapping = json.load(file)
+   return mapping
 
 async def update_namecard(character_id):
    async with aiohttp.ClientSession() as session:
@@ -19,6 +21,7 @@ class Get:
       self.charter_id = str(charter_id)
         
    async def __getattr__(self,name):
+      mapping = get_mapping()
       if self.charter_id  in mapping:
             return mapping[self.charter_id].get(name)
       else:
