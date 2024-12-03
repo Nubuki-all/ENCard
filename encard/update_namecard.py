@@ -33,6 +33,7 @@ async def update():
     for x in nc:
         if x.id == 210192:
             out.update({10000005: {"id": x.id, "icon": x.icon, "image": x.icon}})
+            out.update({10000007: {"id": x.id, "icon": x.icon, "image": x.icon}})
     
     with open(file, "w")as out_file:
         json.dump(out, out_file, indent=4)
