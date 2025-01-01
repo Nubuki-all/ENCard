@@ -89,6 +89,11 @@
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Bennett.png",
         "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Bennett_P.png"
     },
+    "10000033": {
+        "id": 210046,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Tartaglia.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Tartaglia_P.png"
+    },
     "10000034": {
         "id": 210014,
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Noel.png",
@@ -198,6 +203,11 @@
         "id": 210094,
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Sara.png",
         "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Sara_P.png"
+    },
+    "10000057": {
+        "id": 210105,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Itto.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Itto_P.png"
     },
     "10000058": {
         "id": 210112,
@@ -439,6 +449,26 @@
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Olorun.png",
         "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Olorun_P.png"
     },
+    "10000106": {
+        "id": 210226,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Mavuika.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Mavuika_P.png"
+    },
+    "10000107": {
+        "id": 210227,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Citlali.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Citlali_P.png"
+    },
+    "10000108": {
+        "id": 210228,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_Lanyan.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_Lanyan_P.png"
+    },
+    "10000005-pyro": {
+        "id": 210001,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_0.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_0_P.png"
+    },
     "10000005-hydro": {
         "id": 210001,
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_0.png",
@@ -460,6 +490,11 @@
         "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_0_P.png"
     },
     "10000005-dendro": {
+        "id": 210001,
+        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_0.png",
+        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_0_P.png"
+    },
+    "10000007-pyro": {
         "id": 210001,
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_0.png",
         "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_0_P.png"
@@ -488,10 +523,5 @@
         "id": 210001,
         "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_0.png",
         "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_0_P.png"
-    },
-    "10000005": {
-        "id": 210192,
-        "icon": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_OST4.png",
-        "image": "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardIcon_OST4.png"
     }
 }
