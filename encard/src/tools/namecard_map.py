@@ -13,7 +13,7 @@ def get_mapping():
 
 async def update_namecard(character_id):
    async with aiohttp.ClientSession() as session:
-        async with session.get(f"https://gi.yatta.moe/api/v2/en/avatar/{character_id}") as response:
+        async with session.get(f"https://gi.yatta.moe/api/v2/en/avatar/{character_id}?vh=5303") as response:
             return await response.json()
          
 class Get:
