@@ -2,7 +2,7 @@
 
 name = "encard"
 
-version = "1.0"
+version = "1.1"
 
 description = "An addon for an asynchronous module and API that allows you to connect to your bot the generation of Genshin character cards from the Enka.Network website."
 
@@ -23,8 +23,6 @@ homepage = "https://github.com/Nubuki-all/ENCard"
 [tool.poetry.dependencies]
 
 python = "^3.10"
-
-ambr-py = "*"
 
 enkacard = "*"
 
