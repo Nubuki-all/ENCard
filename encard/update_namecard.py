@@ -23,7 +23,7 @@ default_image = "https://gi.yatta.moe/assets/UI/namecard/UI_NameCardPic_0_P.png"
  
 json_new = {} 
  
-async def main(): 
+async def update(): 
     charter_list = await fetch_data("https://gi.yatta.moe/api/v2/en/avatar?vh=5303") 
     for key in charter_list["data"]["items"]: 
         data_charter = await fetch_data(f"https://gi.yatta.moe/api/v2/en/avatar/{key}?vh=5303") 
