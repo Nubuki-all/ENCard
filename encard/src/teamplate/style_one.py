@@ -181,7 +181,7 @@ class Creat:
         text.text((16,18), self.info.name, font= font, fill=(255,255,255,255))
         text.text((16,52), f"{self.translator.lvl}: {self.info.level}/90", font= font, fill=(255,255,255,255))
         text.text((47,86), str(self.info.friendship_level), font= font, fill=(255,255,255,255))
-        text.text((16,175), f'UID: {self.uid}', font= await pill.get_font(15), fill=(255,255,255,100))
+        text.text((16,175), f'UID: {self.uid if not self.hide else "[Hidden]"}', font= await pill.get_font(15), fill=(255,255,255,100))
 
         size = int(font.getlength(self.info.name))
         self.background.alpha_composite(await _gitFile.nickname_icon, (size+16+5,21))
